@@ -1,4 +1,11 @@
-import { Personagem } from "./modules/Personagem"
+import { Personagem } from "./modules/personagem.js"
+import { PersonagemView } from "./components/personagem-view.js"
 
-const personagemDudu = new Personagem('Dudu', 99, 'Mago')
-const personagemLuis = new Personagem('Luis', 59, 'Arqueiro')
+const personagemPedrinho = new Personagem('Pedrinho', 5, 'Mago')
+const personagemJose = new Personagem('Jose', 3, 'Arqueiro')
+
+const personagens = [personagemPedrinho, personagemJose]
+
+new PersonagemView(personagens).render()
+
+console.log(personagemJose.vida)
