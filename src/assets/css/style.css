@@ -310,3 +310,23 @@ header {
     background-image: url(../img/arqueiro-mago.png);
     background-repeat: no-repeat;
 }
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 25px;  
+}
+
+footer a {
+    color: #FAEC75;
+    text-decoration: none;
+    font-size: 25px;  
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
